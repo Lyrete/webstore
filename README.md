@@ -14,6 +14,8 @@ Before running it locally run `composer install` to install dependencies and `ph
 
 ## To-do
 
+- Add some commenting
+- Move redundant duplicated code to middlewares etc.
 - Remove all the unnecessary boilerplate created by Laravel's new function
 - Use a faker function to create fake data for testing
 - Add a lot of validation to the admin panel (and show some kind of confirmation the product got added)
