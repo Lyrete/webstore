@@ -30,6 +30,6 @@ Before running it locally run `composer install` to install dependencies and `ph
 
 ### Tertiary
 
-- Currently I need to have links appended with a prefix on the production server as the store is running in a subdirectory and all links thus point to the wrong location. This is more likely an NGINX issue than laravel but can be circumvented with doing absolute pathing. Have not found a solution yet.
+- Currently I need to have links appended with a prefix on the production server as the store is running in a subdirectory and all links thus point to the wrong location. This is more likely an NGINX issue than laravel but can be circumvented by absolute pathing. Have not found a solution yet.
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" height="50"></a></p>
