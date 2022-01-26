@@ -176,7 +176,10 @@ return [
         App\Providers\RouteServiceProvider::class,
 
         //Lipsum
-        Magyarjeti\LaravelLipsum\LipsumServiceProvider::class
+        Magyarjeti\LaravelLipsum\LipsumServiceProvider::class,
+
+        //Helper service for Subdirs
+        App\Providers\HelperServiceProvider::class,
 
     ],
 
