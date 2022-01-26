@@ -20,7 +20,7 @@
                 </thead>
                 <tbody>
                     @foreach($items as $item)
-                        <tr onclick="window.location='/item/{{$item->id}}'">
+                        <tr onclick="window.location='/webstore/item/{{$item->id}}'">
                             <td>
                                 {{$item->name}}
                             </td>

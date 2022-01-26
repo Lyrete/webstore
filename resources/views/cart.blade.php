@@ -23,7 +23,7 @@
                     @foreach($items as $item)
                         <tr>
                             <td>
-                                <a href="/item/{{$item->id}}">
+                                <a href="/webstore/item/{{$item->id}}">
                                     {{$item->name}}
                                 </a>
                             </td>
